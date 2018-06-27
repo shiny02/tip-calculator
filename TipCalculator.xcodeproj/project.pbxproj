@@ -15,6 +15,7 @@
 		85B7102920E2D5C30007FA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B7102820E2D5C30007FA17 /* main.m */; };
 		85B7103320E2D5C40007FA17 /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B7103220E2D5C40007FA17 /* TipCalculatorTests.m */; };
 		85B7103E20E2D5C40007FA17 /* TipCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B7103D20E2D5C40007FA17 /* TipCalculatorUITests.m */; };
+		85B7104D20E2F4E40007FA17 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B7104C20E2F4E40007FA17 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		85B7103920E2D5C40007FA17 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B7103D20E2D5C40007FA17 /* TipCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorUITests.m; sourceTree = "<group>"; };
 		85B7103F20E2D5C40007FA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B7104B20E2F4E40007FA17 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		85B7104C20E2F4E40007FA17 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				85B7101C20E2D5C10007FA17 /* ViewController.h */,
 				85B7101D20E2D5C10007FA17 /* ViewController.m */,
 				85B7101F20E2D5C10007FA17 /* Main.storyboard */,
+				85B7104B20E2F4E40007FA17 /* SettingsViewController.h */,
+				85B7104C20E2F4E40007FA17 /* SettingsViewController.m */,
 				85B7102220E2D5C30007FA17 /* Assets.xcassets */,
 				85B7102420E2D5C30007FA17 /* LaunchScreen.storyboard */,
 				85B7102720E2D5C30007FA17 /* Info.plist */,
@@ -265,6 +270,7 @@
 				85B7101E20E2D5C10007FA17 /* ViewController.m in Sources */,
 				85B7102920E2D5C30007FA17 /* main.m in Sources */,
 				85B7101B20E2D5C10007FA17 /* AppDelegate.m in Sources */,
+				85B7104D20E2F4E40007FA17 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
